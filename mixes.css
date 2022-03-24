@@ -1,0 +1,101 @@
+html, body {
+	font-size: 1vw;
+}
+@media only screen and (min-width: 1260px) {
+html,body { font-size:12px; }
+}
+
+body {
+	margin:0;
+	padding:1rem;
+	
+	background:#333;
+	color:#ccc;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	color:inherit;
+}
+
+#header {
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	
+	padding:1rem;
+	
+	text-align:center;
+	
+	background-color:#fff;
+	color:#000;
+}
+
+#header >button {
+	padding:0.5rem;
+}
+
+#header #offset {
+	padding:0.5rem;
+	text-align:center;
+}
+
+#app {
+	font-size:1.25rem;
+	
+	padding:0 0 4rem;
+}
+
+#tokens {
+	margin:0;
+	padding:0 1em 0 2em;
+}
+
+#tokens >li {
+	margin:0;
+	padding:0 0 1em;
+}
+
+#tokens >li.hidden {
+	display:none;
+}
+
+#tokens >li >h3 {
+	font-size:1.5rem;
+	
+	min-height:1.6em;
+	
+	margin:0;
+	padding:1rem 0 0.5rem;
+	
+	color:#fff;
+}
+
+#tokens >li >div, #tokens >li >a {
+	display:inline-block;
+	
+	margin:0 1rem 0 0;
+	padding:0;
+	
+	text-align:center;
+	vertical-align:top;
+}
+#tokens >li >.symbol {
+	font-size:3rem;
+	
+	width:auto;
+	padding:12rem 0.25em 0;
+}
+
+#tokens >li >.item >img {
+	width:25rem;
+	height:25rem;
+}
+
+#tokens >li >.item >h4 {
+	width:25rem;
+	min-height:2.75em;
+	
+	margin:0;
+	padding:0.25em;
+}

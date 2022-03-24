@@ -1,0 +1,94 @@
+html, body {
+	font-size:16px;
+}
+body {
+	padding:1em;
+
+	min-width:360px;
+	
+	background:#333;
+	color:#ccc;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	color:inherit;
+}
+
+#app >h2, #app >h2 input#tokenId {
+	vertical-align:middle;
+}
+
+#app >h2 {
+	margin-top:0;
+}
+
+
+#original {
+	display:inline-block;
+
+	padding:0 1rem 1rem 0;
+	
+	text-align:center;
+	vertical-align:top;
+}
+
+#original >img {
+	width:16rem;
+	height:16rem;
+}
+
+#original >h4 {
+	min-height:1.25em;
+	
+	margin:0;
+	padding:0.25em;
+	
+	background-color:#ccc;
+	color:#333;
+}
+
+#tokens {
+	display:inline-block;
+	vertical-align:top;
+	
+	width: calc( 100% - 18rem );
+	min-width:360px;
+}
+
+#tokens >h3 {
+	margin:0;
+	padding:0 0 0.5em;
+}
+
+#tokens >ul {
+	list-style-type:none;
+	
+	margin:0;
+	padding:0 0 1em;
+}
+
+#tokens >ul >li {
+	display:inline-block;
+	
+	margin:0 0.5em 0.5em 0;
+	padding:0;
+}
+#tokens >ul >li .item >img {
+	width:10rem;
+	height:10rem;
+}
+#tokens >ul >li .item >h4 {
+	min-height:1.5em;
+	
+	margin:0;
+	
+	text-align:center;
+}
+
+#tokens >ul >li .item >h4 >span {
+	text-decoration:underline;
+	cursor:pointer;
+	
+	padding:0 1em 0 0;
+}
+

@@ -1,0 +1,30 @@
+<!doctype html>
+	<head> 
+		<title>Smart Waifu Remix Explorer</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="token.css" />
+	</head>
+	<body>
+		<div id="app">
+			<h2>Smart Waifu # <input type="text" id="tokenId" /> <span class="name"></span></h2>
+			<div id="original">
+				<img />
+				<h4></h4>
+			</div>
+			<div id="tokens">
+				<h3>Mixed Waifus (as Main)</h2>
+				<ul id="mixed_mains">
+				</ul>
+				<h3>Mixed Waifus (as Model)</h2>
+				<ul id="mixed_models">
+				</ul>
+			</div>
+		</div>
+	</body>
+
+	<script src="https://cdn.ethers.io/lib/ethers-5.6.umd.min.js" type="text/javascript"></script>
+	<script src="js/contractAbi.js"></script>
+	<script src="js/dom.js"></script>
+	<script src="token.js"></script>
+</html>
