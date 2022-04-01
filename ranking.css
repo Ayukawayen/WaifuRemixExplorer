@@ -1,0 +1,61 @@
+* {
+	box-sizing:border-box;
+}
+
+html, body {
+	font-size:16px;
+}
+body {
+	padding:1em;
+
+	min-width:360px;
+	
+	background:#333;
+	color:#ccc;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	color:inherit;
+}
+
+#tokens {
+	margin:0;
+	padding:0;
+}
+
+#tokens >li {
+	display:block;
+	
+	margin:0;
+	padding:0;
+}
+#tokens >li .item {
+	display:inline-block;
+	
+	padding:0.5rem 0.5rem;
+}
+#tokens >li .item >img {
+	width:3rem;
+	height:3rem;
+	
+	vertical-align:bottom;
+}
+#tokens >li .item .name {
+	display:inline-block;
+
+	width:20rem;
+	
+	padding:0 0.5rem;
+	
+	vertical-align:bottom;
+}
+#tokens >li .item .count {
+	display:inline-block;
+
+	width:3rem;
+	
+	padding:0 0.5rem;
+	
+	text-align:right;
+	vertical-align:bottom;
+}
